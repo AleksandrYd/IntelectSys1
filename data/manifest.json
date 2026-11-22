@@ -1,0 +1,27 @@
+{
+  "pride_and_prejudice": {
+    "source": "Project Gutenberg, ebook 1342, Jane Austen, Pride and Prejudice",
+    "url": "https://gutenberg.pglaf.org/cache/epub/1342/pg1342.txt",
+    "version": "зеркало gutenberg.pglaf.org; gutenberg.org на момент загрузки отвечал 503",
+    "rule": "Сохранён исходный файл. В запросы берётся текст от первого 'It is a truth universally acknowledged' до маркера конца книги. Предисловие Gutenberg и лицензия в конец файла отброшены. Переводы строк приведены к \\n.",
+    "n_raw_chars": 748167,
+    "n_body_chars": 694453,
+    "n_excluded_chars": 53714,
+    "tokenizer": {
+      "source": "Hugging Face Qwen/Qwen3-4B-Instruct-2507",
+      "file": "data/tokenizer.json",
+      "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+    },
+    "files": {
+      "data/pg1342.txt": {
+        "sha256": "3f6bb9d6f78e0293b56acd4714dd68cb7d6d1d293402031ce9d5a216bcaf9d75",
+        "n_records": 1
+      },
+      "data/pride_body.txt": {
+        "sha256": "fe2eb93de56d884cda00c2588d143b6754485a050444a1226b0d437e0d1480b7",
+        "n_records": 1,
+        "n_chars": 694453
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+base_url: http://127.0.0.1:8080/v1
+api_key: none
+model: 'C:\Users\NoFi\.ollama\models\blobs\sha256-85e4a5b7b8ef0e48af0e8658f5aaab9c2324c76c1641493f4d1e25fce54b18b9'
+temperature: 0
+max_model_len: 16384
+server: llama.cpp
+server_version: b12631
+weight_format: Q4_K_M
+source_model: qwen3:4b-instruct-2507-q4_K_M
+weight_sha256: 85e4a5b7b8ef0e48af0e8658f5aaab9c2324c76c1641493f4d1e25fce54b18b9
+n_threads: 4
+n_slots: 1
+n_ctx_slot: 16384
