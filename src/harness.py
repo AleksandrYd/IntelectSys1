@@ -59,8 +59,5 @@ def setup_mlflow(experiment: str = "lr1") -> None:
     db = (ROOT / "mlflow.db").resolve()
     mlflow.set_tracking_uri("sqlite:///" + db.as_posix())
     if mlflow.get_experiment_by_name(experiment) is None:
-        mlflow.create_experiment(
-            experiment,
-            artifact_location=(ROOT / "mlartifacts").resolve().as_uri(),
-        )
+        mlflow.create_experiment(experiment)
     mlflow.set_experiment(experiment)

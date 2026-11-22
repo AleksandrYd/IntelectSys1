@@ -1,0 +1,9 @@
+experiment: exp1
+series: exp1_length
+output_tokens: 16
+temperature: 0
+ignore_eos: true
+lengths: [128, 512, 1024, 2048, 4096]
+repeats: 5
+cache_length: 2048
+cache_repeats: 3
