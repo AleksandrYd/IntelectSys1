@@ -9,5 +9,6 @@ weight_format: Q4_K_M
 source_model: qwen3:4b-instruct-2507-q4_K_M
 weight_sha256: 85e4a5b7b8ef0e48af0e8658f5aaab9c2324c76c1641493f4d1e25fce54b18b9
 n_threads: 4
-n_slots: 1
-n_ctx_slot: 16384
+n_slots: 4
+n_ctx_slot: 4096
+kv_unified: false

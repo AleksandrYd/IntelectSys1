@@ -1,0 +1,10 @@
+experiment: exp3
+series: exp3_load
+clients: [1, 2, 4]
+prompt_tokens: 1024
+output_tokens: 128
+temperature: 0
+ignore_eos: true
+# 1.5 × медиана TTFT одного запроса на 1024 токена из опыта 1 (88.761 с)
+ttft_limit_s: 133.141
+tpot_limit_s: 0.25
