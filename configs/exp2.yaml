@@ -1,0 +1,7 @@
+experiment: exp2
+series: exp2_output
+prompt_tokens: 1024
+output_lengths: [16, 64, 256, 1024]
+repeats: 5
+temperature: 0
+ignore_eos: true
